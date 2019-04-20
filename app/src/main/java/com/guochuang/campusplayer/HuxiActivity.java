@@ -31,6 +31,7 @@ import com.supermap.realspace.Scene;
 import com.supermap.realspace.SceneControl;
 
 // for pull test
+// second line
 public class HuxiActivity extends AppCompatActivity {
     public static final String TAG = "HuxiActivity, Tag";
     public static final String rootPath = android.os.Environment.getExternalStorageDirectory().getAbsolutePath();
