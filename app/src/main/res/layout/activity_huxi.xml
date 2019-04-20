@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HuxiActivity"
+    android:background="@color/primary_material_dark">
+
+    <com.supermap.realspace.SceneControl
+        android:id="@+id/scene_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/full_screen_image_campus_d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/campus_d"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/ic_menu_revert" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <com.guochuang.campusplayer.ui.MenuBar
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-20dp"
+        android:gravity="center|bottom" />
+</RelativeLayout>
